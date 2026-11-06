@@ -28,11 +28,11 @@ REPLY_MESSAGE = Config.REPLY_MESSAGE
 
 buttons = [
             [
-                InlineKeyboardButton("💌 Contact Me", url="https://t.me/dunottagme"),
-                InlineKeyboardButton("🏷️ Join Here", url="https://t.me/fantaestheticgang"),
+                InlineKeyboardButton("💌 Contact Me", url="https://t.me/ozturkordusu"),
+                InlineKeyboardButton("🏷️ Join Here", url="https://t.me/emeklisanalci"),
             ],
             [
-                InlineKeyboardButton("🤖 Make Own Bot", url="https://heroku.com/deploy?template=https://github.com/brut-ctrl/VideoChatBot"),
+                InlineKeyboardButton("🤖 Make Own Bot", url="https://t.me/adsizbey06"),
             ]
          ]
 
