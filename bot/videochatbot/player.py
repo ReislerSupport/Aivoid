@@ -99,7 +99,7 @@ async def stream(client, m: Message):
                 await group_call.join(CHAT_ID)
                 await group_call.start_video(video, with_audio=True)
                 VIDEO_CALL[CHAT_ID] = group_call
-                await msg.edit(f"📺 **Start Playing [Video Streaming](https://github.com/brut-ctrl/VideoChatBot)**", disable_web_page_preview=True)
+                await msg.edit(f"📺 **Start Playing [Video Streaming](https://t.me/emeklisanalci)**", disable_web_page_preview=True)
             except Exception as e:
                 await msg.edit(f"😵‍💫 **An Error Occoured!** \n\nBot Brain was Error: `{e}`")
 
@@ -230,11 +230,11 @@ allcmd = ["start", "help", f"start@{USERNAME}", f"help@{USERNAME}"] + admincmds
 async def not_chat(_, m: Message):
     buttons = [
             [
-                InlineKeyboardButton("💌 Contact Me", url="https://t.me/dunottagme"),
-                InlineKeyboardButton("🏷️ Join Here", url="https://t.me/fantaestheticgang"),
+                InlineKeyboardButton("💌 Contact Me", url="https://t.me/emeklisanalci"),
+                InlineKeyboardButton("🏷️ Join Here", url="https://t.me/ozturkordusu"),
             ],
             [
-                InlineKeyboardButton("🤖 Make Own Bot", url="https://heroku.com/deploy?template=https://github.com/brut-ctrl/VideoChatBot"),
+                InlineKeyboardButton("🤖 Make Own Bot", url="https://t.me/emeklisanalci"),
             ]
          ]
-    await m.reply_text(text="**So Sorry Dude... You Cant Use This Bot In This Group! But You Can Make Your Own Bot Like This From The [Source Code](https://github.com/brut-ctrl/VideoChatBot) Below 😉!**", reply_markup=InlineKeyboardMarkup(buttons), disable_web_page_preview=True)
+    await m.reply_text(text="**So Sorry Dude... You Cant Use This Bot In This Group! But You Can Make Your Own Bot Like This From The [DOBLOCU](https://t.me/emeklisanalci) Below 😉!**", reply_markup=InlineKeyboardMarkup(buttons), disable_web_page_preview=True)
