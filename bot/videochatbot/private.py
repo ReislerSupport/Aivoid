@@ -31,7 +31,7 @@ from pyrogram.errors import MessageNotModified
 
 CHAT_ID = Config.CHAT_ID
 USERNAME = Config.BOT_USERNAME
-HOME_TEXT = "👋🏻 **Hi Dude [{}](tg://user?id={})** \n\n🤖 Im **Video Chat Bot**. \n**I Can Stream Lives, Radios, YouTube Videos & Telegram Video Files On Voice Chat Of Telegram Channels & Groups**"
+HOME_TEXT = "👋🏻 **Hi Dude [{}](tg://user?id={})** \n\n🤖 Im **Eltiler müzik Bot**. \n**I Can Stream Lives, Radios, YouTube Videos & Telegram Video Files On Voice Chat Of Telegram Channels & Groups**"
 HELP_TEXT = """
 🏷️ **Setting Up** :
 
@@ -56,11 +56,11 @@ async def cb_handler(client: Client, query: CallbackQuery):
     if query.data=="help":
         buttons = [
             [
-                InlineKeyboardButton("💌 Contact Me", url="https://t.me/dunottagme"),
-                InlineKeyboardButton("🏷️ Join Here", url="https://t.me/fantaestheticgang"),
+                InlineKeyboardButton("💌 Contact Me", url="https://t.me/emeklisanalci"),
+                InlineKeyboardButton("🏷️ Join Here", url="https://t.me/ozturkordusu"),
             ],
             [
-                InlineKeyboardButton("🤖 Make Own Bot", url="https://heroku.com/deploy?template=https://github.com/brut-ctrl/VideoChatBot"),
+                InlineKeyboardButton("🤖 Klon için tıkla", url="https://t.me/emeklisanalci"),
             ],
             [
                 InlineKeyboardButton("🔙 Back", callback_data="home"),
@@ -82,11 +82,11 @@ async def cb_handler(client: Client, query: CallbackQuery):
                 InlineKeyboardButton("🧐 Inline Mode", switch_inline_query_current_chat=""),
             ],
             [
-                InlineKeyboardButton("💌 Contact Me", url="https://t.me/dunottagme"),
-                InlineKeyboardButton("🏷️ Join Here", url="https://t.me/fantaestheticgang"),
+                InlineKeyboardButton("💌 Contact Me", url="https://t.me/emeklisanalci"),
+                InlineKeyboardButton("🏷️ Join Here", url="https://t.me/ozturkordusu"),
             ],
             [
-                InlineKeyboardButton("🤖 Make Own Bot", url="https://heroku.com/deploy?template=https://github.com/brut-ctrl/VideoChatBot"),
+                InlineKeyboardButton("🤖 SUPPORT", url="https://t.me/ozturkordusu"),
             ],
             [
                 InlineKeyboardButton("🤔 Help Menu", callback_data="help"),
@@ -116,11 +116,11 @@ async def start(client, message):
                 InlineKeyboardButton("🧐 Inline Mode", switch_inline_query_current_chat=""),
             ],
             [
-                InlineKeyboardButton("💌 Contact Me", url="https://t.me/dunottagme"),
-                InlineKeyboardButton("🏷️ Join Here", url="https://t.me/fantaestheticgang"),
+                InlineKeyboardButton("💌 Contact Me", url="https://t.me/ozturkordusu"),
+                InlineKeyboardButton("🏷️ Join Here", url="https://t.me/zinakarim"),
             ],
             [
-                InlineKeyboardButton("🤖 Make Own Bot", url="https://heroku.com/deploy?template=https://github.com/brut-ctrl/VideoChatBot"),
+                InlineKeyboardButton("🤖 Make Own Bot", url="https://t.me/zinakarmisin"),
             ],
             [
                 InlineKeyboardButton("🤔 Help Menu", callback_data="help"),
@@ -133,11 +133,11 @@ async def start(client, message):
 async def help(client, message):
     buttons = [
             [
-                InlineKeyboardButton("💌 Contact Me", url="https://t.me/dunottagme"),
-                InlineKeyboardButton("🏷️ Join Here", url="https://t.me/fantaestheticgang"),
+                InlineKeyboardButton("💌 Contact Me", url="https://t.me/zinakarim"),
+                InlineKeyboardButton("🏷️ Join Here", url="https://t.me/ozturkordusu"),
             ],
             [
-                InlineKeyboardButton("🤖 Make Own Bot", url="https://heroku.com/deploy?template=https://github.com/brut-ctrl/VideoChatBot"),
+                InlineKeyboardButton("🤖 Klone Bot", url="https://t.me/ozturkordusu"),
             ],
             [
                 InlineKeyboardButton("🔙 Back", callback_data="home"),
